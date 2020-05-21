@@ -8,18 +8,165 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
+        <!-- My Custom CSS-->
+        <link rel="stylesheet" href="css/style.css">
         <title>About Me</title>
     </head>
     <body>
-        <header>
 
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mx-auto" id="head" href="#">Welcome to my world.</a>
+                <!-- <div id="Navbar" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </nav>
+
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col-12">
+                        <div class="row mt-3">
+                            <div class="col-12 col-sm-6 col-lg-3 ">
+                                <div class="d-block d-lg-none">
+                                    <img class="mx-auto ml-lg-auto d-block img-thumbnail" style="max-height:150px;"  src="img/Ranjith_profile.jpg">  
+                                </div>
+                                <div class="d-none d-lg-block">
+                                    <img class="ml-auto ml-lg-auto d-block img-thumbnail" style="max-height:150px;"  src="img/Ranjith_profile.jpg">  
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mt-3">
+                                <div class="d-block d-lg-none">
+                                    <img class="mx-auto d-block" style="max-height:120px;" src="img/ranjith_thangaraju.png">
+                                </div>
+                                <div class="d-none d-lg-block">
+                                    <img class="mr-auto d-block" style="max-height:120px;" src="img/ranjith_thangaraju.png">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-2 mt-3">
+                                <img class="mx-auto d-block" style="max-height:120px;" src="img/Mean_stack.png">
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-2 mt-4">
+                                <img class="mx-auto d-block" style="height:100px;width:100px" usemap="#social" src="img/logos.png">
+                                <map name="social">
+                                    <area shape="rect" coords="2,3,47,47" target="_blank" href="https://www.linkedin.com/in/ranjith1010">
+                                    <area shape="rect" coords="3,53,46,96" target="_blank" href="https://www.hackerearth.com/@ranjith-1010">
+                                    <area shape="circle" coords="74,74,20" target="_blank" href="https://www.github.com/ranjith1010">
+                                    <area shape="poly" coords="74,2,56,14,56,36,74,47,93,36,93,14" target="_blank" href="https://www.hackerrank.com/ranjith_1010">
+                                </map>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </header>
+        <div class="container">
+            <div class="row mt-3" >
+                <div class="col">
+                    <h3>Projects</h3>
+                </div>
+            </div>
+            
+            <div class="row row-content">
+
+                <div class="col-11 col-md-6 mx-auto mb-4 d-flex align-self-stretch">
+                    <div class="card">
+                        <div class="card-header" >
+                                <h5>Ecampus</h5>
+                        </div>
+                        <div class="card-body text-justify">
+                            <temp>&emsp;&emsp;An Android Application for better User Experience for PSG Tech Students instead of unresponsive previous site.</temp>
+                        </div>
+                        <div class="card-footer">
+                            Link : <a target="_blank" href="https://play.google.com/store/apps/details?id=com.threepointo.ecampus">Ecampus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-11 col-md-6 mx-auto mb-4 d-flex align-self-stretch">
+                    <div class="card">
+                        <div class="card-header">
+                                <h5>VChat</h5>
+                        </div>
+                        <div class="card-body text-justify">
+                            <temp>&emsp;&emsp;A Web Application for Chatting between friends developed in Node.js and Express js and Firebase Database.</temp>
+                        </div>
+                        <div class="card-footer">
+                            Link : <a target="_blank" href="https://github.com/ranjith1010/vchat">VChat</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-11 col-md-6 mx-auto mb-4 d-flex align-self-stretch">
+                    <div class="card">
+                        <div class="card-header">
+                                <h5>Chess</h5>
+                        </div>
+                        <div class="card-body text-justify">
+                            <temp>&emsp;&emsp;A Local Multiplayer Chess Game fully designed and developed in C++ Graphics.</temp>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-11 col-md-6 mx-auto mb-4 d-flex align-self-stretch">
+                    <div class="card">
+                        <div class="card-header">
+                                <h5>Tic Tac Toe</h5>
+                        </div>
+                        <div class="card-body text-justify">
+                            <temp>&emsp;&emsp;A Web Application for playing Tic Tac Toe through Online with friends developed in Angular 9 and Firebase Database</temp>
+                        </div>
+                        <div class="card-footer">
+                            Link : <a target="_blank" href="https://tic-tac-toe-kt.web.app">Tic Tac Toe</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-11 col-md-6 mx-auto mb-4 d-flex align-self-stretch">
+                    <div class="card" >
+                        <div class="card-header">
+                                <h5>Kriya</h5>
+                        </div>
+                        <div class="card-body text-justify">
+                            <temp>&emsp;&emsp;An Android Application for Registration of Events and Workshops and Fee payment of an Inter College Fest &quot;Kriya&quot;</temp>
+                        </div>
+                        <div class="card-footer">
+                            Link : <a target="_blank" href="https://play.google.com/store/apps/details?id=tpo.kriya">Kriya-2k20</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-11 col-md-6 mx-auto mb-4 d-flex align-self-stretch">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Invoice Generator</h5>
+                        </div>
+                        <div class="card-body text-justify">
+                            <temp>&emsp;&emsp;A Python Kivy Application for Retail Shop Owners to send Automatic Email to customer As soon the Details are provided.</temp>
+                        </div>
+                        <div class="card-footer">
+                            Link : <a target="_blank" href="https://github.com/balajiRchandran/Invoice-Generator">Invoice-Generator</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <footer>
 
         </footer>
-        
+
         <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
