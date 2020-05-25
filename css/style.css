@@ -1,4 +1,9 @@
-*{
+
+@font-face {
+    font-family: bungeefont;
+    src: url("../fonts/bungee.ttf");
+ }
+ *{
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -29,7 +34,7 @@
 }
 
 #head{
-    font-family: Bungee;
+    font-family: bungeefont;
 }
 
 .navbar-nav{
@@ -62,7 +67,7 @@
 }
 
 .footer{
-    background-color: #000;
+    background-color: #333333;
     margin: 0px auto;
     color:white;
     padding: 20px 0px 20px 0px;
@@ -76,7 +81,10 @@
 }
 
 address{
-    font-size: 80%;
+    user-select: text;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    font-size: 90%;
     margin: 0px;
     color: #fff;
 }
